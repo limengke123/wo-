@@ -10,6 +10,7 @@
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --hot --inline --process --colors --port 3000",
     "build": "webpack",
+    "server": "nodemon ./service/index.js",
     "lint": "eslint ./ --cache --fix --ignore-pattern .gitignore"
   },
   "author": "duxiaodu",
@@ -45,6 +46,7 @@
     "koa-logger": "^3.0.1",
     "less": "~2.7.1",
     "less-loader": "~2.2.3",
+    "nodemon": "^1.11.0",
     "nyc": "~7.0.0",
     "postcss-loader": "~0.9.1",
     "prepare-commit-msg-dianwoda": "^0.2.1",
@@ -88,6 +90,7 @@
     "redux": "~3.5.2",
     "redux-actions": "~0.10.1",
     "redux-thunk": "~2.1.0",
+    "validator": "^6.3.0",
     "webpack": "~1.13.1"
   }
 }
